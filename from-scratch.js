@@ -84,12 +84,19 @@ const printUserNamesAndScores = (users) => {
 
 // Problem 7
 const getUserNames = (users) => {
+  return users.map((user) => {
+    return user.name;
+  });
+
 
 };
 
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
+  return user.filter((user) => {
+    return user.age < 30 && user.isActive === true;
+  });
 
 };
 
