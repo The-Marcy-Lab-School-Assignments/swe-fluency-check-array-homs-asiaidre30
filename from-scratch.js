@@ -50,6 +50,7 @@ const getEvenNumbers = (nums) => {
 
 // Problem 5
 const getLargestNumber = (numbers) => {
+  return Math.max(...numbers);
 
 };
 
