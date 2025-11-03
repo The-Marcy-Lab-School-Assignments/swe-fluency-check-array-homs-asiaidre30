@@ -41,6 +41,10 @@ const sampleNumbers = [7, 3, 9, 1, 4, 8, 2, 10, 5, 6];
 
 // Problem 4
 const getEvenNumbers = (nums) => {
+  return numbers.filter((num) => {
+    return num % 2 === 0;
+
+  });
 
 };
 
