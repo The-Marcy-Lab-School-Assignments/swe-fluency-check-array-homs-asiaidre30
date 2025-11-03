@@ -50,7 +50,13 @@ const getEvenNumbers = (nums) => {
 
 // Problem 5
 const getLargestNumber = (numbers) => {
-  return Math.max(...numbers);
+  return numbers.reduce((currentMax, num) => {
+    if (num > currentMax) {
+      return num
+    } else {
+      return currentMax;
+    }
+  });
 
 };
 
@@ -68,6 +74,10 @@ const sampleUsers = [
 
 // Problem 6
 const printUserNamesAndScores = (users) => {
+  // couldnt complete this problem but i have a feeling we use 
+  // .forEach because the problem states do not return a new
+  // array and .forEach is made for looping through an array and
+  // doing an action for each item and  not returning anything.
 
 };
 
