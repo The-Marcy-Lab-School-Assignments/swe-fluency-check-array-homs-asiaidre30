@@ -27,6 +27,9 @@ const getStringLengths = (strings) => {
 
 // Problem 3
 const sortWordsZtoA = (words) => {
+  words.sort();
+  words.reverse();
+  return words;
 
 };
 
